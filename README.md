@@ -6,14 +6,14 @@ from kroniz_utab import Me
 class About(Me):
   def __init__(self):
     self.name = "Ade Hermawan Fajri"
-    self.age = 23
+    self.age = 25
     self.pronounce = "He"
   
   def getCurrentWorkplace(self) -> dict :
     return {
       "office": "Badan Meteorologi Klimatologi dan Geofisika Pusat Jakarta"
       "division": "Pusat Seismologi Teknik Geofisika Potensial dan Tanda Waktu"
-      "role": "Seismic Instrument Engineering"
+      "role": "Seismic Instrument Engineer"
     }
   
   def getCurrentKnowledge(self) -> dict :
@@ -27,8 +27,7 @@ class About(Me):
           PHP
         ],
       "framework": [
-          HapiJs,
-          CodeIgniter,
+          NestJs,
           Flutter,
           FastAPI,
           Tensorflow
